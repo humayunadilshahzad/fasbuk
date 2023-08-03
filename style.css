@@ -45,7 +45,7 @@ nav{
     display: flex;
     align-items: center;
     border-radius: 20px;
-    /* padding: 0 5px; */
+     padding-left: 5px;
 }
 .search-box img{
     width: 18px;
