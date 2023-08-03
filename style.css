@@ -16,13 +16,13 @@ nav{
     justify-content: space-between;
     background:#1876f2;
     padding: 5px 5%;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 .nav-left , .nav-right, .search-box{
     display: flex;
     align-items: center;
-    border: 3px solid green;
+    /* border: 3px solid green; */
 }
 .nav-left ul li{
     display: inline-block;
@@ -30,7 +30,7 @@ nav{
     padding-left: 20px;
 }
 .nav-right{
-     border: 3px solid blue;
+     /* border: 3px solid blue; */
 }
 .user-pic img{
     height: 25px;
