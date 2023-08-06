@@ -77,42 +77,44 @@ nav{
 
    /* ssssssssssssssssss   start main Container CSS  sssssssssssssss */
    .body-container{
-    height: 200px;
+    height: 500px;
     width: 100%;
     display: flex;
-    align-items: center;
+    justify-content:space-between  ;
 
    }
 
    /* ssssssssssssssssss   start left Container CSS  sssssssssssssss */
    .left-subcontainer{
     background: #3ee74f;
-    height: 200px;
+    height: 300px;
     width: 25%;
-    
+    display: flex;
+    align-items: center;
 
    }
 
    .center-subcontainer{
     background: #b682e92e;
-    height: 200px;
+    height: 300px;
     width: 47%;
 
    }
 
    .right-subcontainer{
     background: #3ee74f;
-    height: 200px;
+    height: 300px;
     width: 25%;
+
 
    }
 
-   .imp-links{
+   .imp-links a{
 
     text-decoration: none;
     display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-    color: aqua;
+    /* align-items: center; */
+    margin:20px;
+    color: rgb(68, 122, 122);
     width: fit-content;
    }
