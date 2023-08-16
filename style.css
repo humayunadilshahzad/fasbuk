@@ -147,12 +147,12 @@ nav{
     }
 
     /* ---------------- right pannal EVENTS ---------------- */
-    .events{
+    .event{
         display: flex;
         font-size: 14px;
         margin-bottom: 20px;
     }
-    .left-events{
+    .event-left{
         border-radius: 10px;
         height: 65px;
         width: 65px;
@@ -165,16 +165,16 @@ nav{
 
     }
 
-    .events p{
+    .event p{
         font-size: 12px;
     }
-    .events a{
+    .event a{
         font-size: 12px;
         text-decoration: none;
         color: #1876f2;
     }
 
-    .left-events span{
+    .event-left span{
         position: absolute;
         bottom: 0;
         left: 0;
@@ -197,3 +197,9 @@ nav{
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
     } */
+
+    /* ----------------- Advertisments --------------- */
+    .Add-image{
+        width: 100%;
+        border-radius: 6px;
+    }
