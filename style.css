@@ -81,6 +81,7 @@ nav{
     height: 500px;
     width: 100%;
     display: flex;
+    padding: 10px 2%;
     justify-content:space-between  ;
 
    }
@@ -100,14 +101,14 @@ nav{
    .center-subcontainer{
     background: #f3f8f4;
     height: 300px;
-    width: 47%;
+    width: 52%;
 
    }
 
    .right-subcontainer{
     background: #f3f8f4;
     height: 300px;
-    width: 25%;
+    width: 20%;
     padding: 25px;
 
    }
