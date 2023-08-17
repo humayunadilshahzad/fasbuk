@@ -215,3 +215,7 @@ nav{
         width: 30px;
         border-radius: 50%;
     }
+    .onlinePeople-list p{
+        margin-left: 10px;
+    }
+    
