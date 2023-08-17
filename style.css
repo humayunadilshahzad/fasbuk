@@ -205,3 +205,13 @@ nav{
         border-radius: 6px;
         margin-bottom: 20px;
     }
+
+    .onlinePeople-list{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .onlinePeople-list .show-online img{
+        width: 30px;
+        border-radius: 50%;
+    }
