@@ -217,9 +217,9 @@ nav{
         width: 30px;
         border-radius: 50%;
     }
-    /* .onlinePeople-list p{
-        margin-left: 10px;
-    } */
+    .onlinePeople-list p{
+font-size: 12px;
+    }
     .onlinePeople-list .show-online{
         width: 30px;
         border-radius: 50%;
@@ -229,4 +229,16 @@ nav{
     .onlinePeople-list .show-online::after{
         top:unset;
         bottom: 3px;
+    }
+
+
+    .stories-gallery{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .storie{
+        flex-basis: 18%;
+        padding-top: 32%;
+        
     }
