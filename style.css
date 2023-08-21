@@ -240,5 +240,10 @@ font-size: 12px;
     .storie{
         flex-basis: 18%;
         padding-top: 32%;
-        
+
+    }
+    /* --------------User stories middle pannel--------------- */
+    
+    .story img{
+        width: 500px;
     }
