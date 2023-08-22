@@ -243,7 +243,39 @@ font-size: 12px;
 
     }
     /* --------------User stories middle pannel--------------- */
-    
+    /* .center-subcontainer{
+        display: flex;
+        justify-items: center;
+    } */
+    .stories-gallery{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .story{
+        /* display: flex; */
+        flex-basis: 18%;
+        padding-top: 32%;
+        position: relative;
+        background-image:linear-gradient(transparent, rgba(0,0,0,0.5)), url(images/simon-lee-uCbsQrqSOWU-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+       }
     .story img{
-        width: 500px;
+        position: absolute;
+        width: 45px;
+        border-radius: 50%;
+        top: 10px;
+        left: 10px;
+        border-radius: 5px solid #626262;
+        
+    }
+    .story p{
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+        color:#fff;
+        font-size: 14px;
     }
